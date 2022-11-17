@@ -1,0 +1,42 @@
+<div class="blue-header-show">
+ <h2><%= link_to "<", groups_path, class: "color-white" %> </h2>
+ <h3 class="text-center">DETAILS</h3>
+</div>
+
+<div class="group-show bg-white">
+
+ <div class="icon-and-name-show">
+   <div class="group-icon">
+    <p><%= image_tag @group.icon, class: "group-icon-img" %></p>
+    </div>
+   <h4><%= @group.name %></h4>
+ </div>
+ <br>
+ <div class="group-description">
+  <p><%= @group.description %></p>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <div class="transaction-details">
+  <% @payments.each do |payment| %>
+  <div class="each-transaction-details">
+  <p>Transaction: <%= payment.name %>: $<%= payment.amount %> </p>
+  <%= payment.created_at %>  
+  </div>
+  <% end %>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <div class="total-payment">
+  <p>TOTAL PAYMENT</p>
+  <p>$<%= @group.total_amount %></p>   
+ </div>
+</div>
+<br>
+<br>
+
+<div class="add-new-transaction-btn text-center">
+ <%= link_to "Add new transaction", new_payment_path, class: "color-white" %>
+</div>
