@@ -1,132 +1,132 @@
 .groups-header {
-    background-color: #fff;
-    height: 50px;
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .group-card {
-    background-color: #fff;
-    height: 100px;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px;
-    gap: 10px;
-  }
-  
-  .blue-header {
-    background-color: #3778c2;
-    height: 100px;
-    width: 100%;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  .blue-header-show {
-    background-color: #3778c2;
-    height: 87px;
-    width: 100%;
-    color: #fff;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 10fr;
-    align-items: center;
-  }
-  
-  .blue-header-buttom {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 3vh;
-    gap: 10px;
-  }
-  
-  .add-new-category,
-  .add-new-transaction-btn {
-    background-color: #5fb523;
-    color: #fff;
-    width: 100%;
-    height: 100px;
-    padding-top: 40px;
-  }
-  
-  .new-category-link:hover {
-    color: #3778c2;
-  }
-  
-  .group-icon {
-    border: 1px solid #f3f4f6;
-    width: 80px;
-    height: 80px;
-  }
-  
-  .card-right {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .name-and-amount {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    width: 60vw;
-  }
-  
-  .created-at-group {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 65vw;
-  }
-  
-  .icon-and-name-show {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    gap: 20px;
-  }
-  
-  .total-payment {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .group-show {
-    margin: 10px 10px 0 10px;
-    padding: 12px;
-  }
-  
-  .each-transaction-details {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-    border-bottom: 1px solid #f3f4f6;
-  }
-  
-  .group-icon-img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .header-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .select-area {
-    width: 100%;
-    height: 80px;
-    padding: 10px;
-    background-color: #fff;
-    border: none;
-  }
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-card {
+  background-color: #fff;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  gap: 10px;
+}
+
+.blue-header {
+  background-color: #3778c2;
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+}
+
+.blue-header-show {
+  background-color: #3778c2;
+  height: 87px;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+}
+
+.blue-header-buttom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 3vh;
+  gap: 10px;
+}
+
+.add-new-category,
+.add-new-transaction-btn {
+  background-color: #5fb523;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+}
+
+.new-category-link:hover {
+  color: #3778c2;
+}
+
+.group-icon {
+  border: 1px solid #f3f4f6;
+  width: 80px;
+  height: 80px;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-and-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 60vw;
+}
+
+.created-at-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65vw;
+}
+
+.icon-and-name-show {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+}
+
+.total-payment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-show {
+  margin: 10px 10px 0 10px;
+  padding: 12px;
+}
+
+.each-transaction-details {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.group-icon-img {
+  width: 80px;
+  height: 80px;
+}
+
+.header-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.select-area {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
