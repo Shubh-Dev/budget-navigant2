@@ -1,0 +1,25 @@
+<div class="blue-header header-item">
+  <h2><%= link_to "<", groups_path, class: "color-white" %></h2>  
+</div>
+<div class="sign-in-page">
+    <%= form_with scope: :payment, url: payments_path, local: true do |form| %>
+        <div class="label">
+            <%= form.text_field :name, class: "input-sign-in", placeholder: "Name" %>
+        </div>
+        <hr>
+        <hr>
+        <div class="label">
+            <%= form.number_field :amount, class: "input-sign-in", placeholder: "Amount" %>
+        </div>
+        <hr>
+        <hr>
+        <div class="label">   
+        <%= form.collection_select :group_ids, current_user.groups.order(:name), :id, :name, {}, { class: "select-area", multiple: true, required: true } %>
+        </div>
+        <br>
+        <div class="label">
+            <%= form.submit "Add transaction", class: "sign-up-btn" %>
+        </div>
+    <% end %>
+
+</div>

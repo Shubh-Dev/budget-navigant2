@@ -1,0 +1,63 @@
+.sign-in-page {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .field {
+    margin: auto;
+  }
+  
+  .input-sign-in {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .login-root {
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    left: 0;
+  }
+  
+  .position-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  
+  .root-login-btn {
+    width: 95vw;
+    height: 6vh;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3778c2;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .root-signup-btn {
+    width: 95vw;
+    height: 6vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3778c2;
+  }
+  
+  .sign-up-btn {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #c9d4e1;
+  }

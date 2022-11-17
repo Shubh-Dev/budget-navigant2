@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    background-color: rgb(246, 247, 248);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .color-grey {
+    color: rgb(153, 153, 153);
+  }
+  
+  .color-white {
+    color: #fff;
+  }
+  
+  hr {
+    border: 1px solid #f3f4f6;
+  }
+  
+  .log-btns {
+    border: none;
+    background-color: rgb(246, 247, 248);
+  }
