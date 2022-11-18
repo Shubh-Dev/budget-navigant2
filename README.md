@@ -10,6 +10,8 @@ This application keeps track of an user's transactions for different categories.
 
 ## Presentation by Author
 
+[Video Presentation](https://www.loom.com/share/aa0f946aaeff462e8c0bddbac4696ca5) 
+
 ## Built With
 
 - Technologies used:
