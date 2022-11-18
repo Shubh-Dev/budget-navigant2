@@ -33,7 +33,7 @@
     <div class="created-at-group">
       <p><%= group.created_at.strftime("%B %d, %Y") %></p>
       <% if can? :destroy, group %>
-      <p><%= button_to "Delete", group, method: :delete, data: { confirm: "Are you sure?" } %></p>
+      <p><%= button_to "Delete", group, method: :delete, data: { confirm: "Are you sure?" }, class: "delete-btn" %></p>
       <% end %>
     </div>
    </div>  

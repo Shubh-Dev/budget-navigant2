@@ -130,3 +130,9 @@
   background-color: #fff;
   border: none;
 }
+
+.delete-btn {
+  background-color: #fff;
+  border: none;
+  color: #3778c2;
+}
