@@ -1,0 +1,51 @@
+  <div class="blue-header">
+    <h3 class="text-center">TRANSACTIONS</h3>
+
+    <div class="blue-header-buttom">
+       <% if user_signed_in? %>
+    <h5><%= link_to "Sign-out", destroy_user_session_path, method: :delete, class: "color-white" %></h5>
+   <% end %>
+    </div>
+    
+  </div>
+  
+  <div class="groups-header">
+   <p>Gift credit</p>
+   <p>$45</p>
+  </div>
+
+ <div class="groups-container">
+  <% if @groups.any? %> 
+  <% @groups.each do |group| %>
+   <div class="group-card">
+
+    <div class="group-icon">
+    <p><img src="<%= group.icon%>", class="group-icon-img" /></p>
+    </div>
+
+    
+   <div class="card-right">
+    <div class="name-and-amount">
+      <h3><%= link_to group.name, group %></h3>
+      <p>$<%= group.total_amount %></p>
+    </div>
+
+    <div class="created-at-group">
+      <p><%= group.created_at.strftime("%B %d, %Y") %></p>
+      <% if can? :destroy, group %>
+      <p><%= button_to "Delete", group, method: :delete, data: { confirm: "Are you sure?" }, class: "delete-btn" %></p>
+      <% end %>
+    </div>
+   </div>  
+    
+   </div>
+  <% end %>
+  <% else %>
+    <p>No groups yet</p>
+    <% end %>
+
+  <div class="add-new-category text-center">
+  <%= link_to "Add new category", new_group_path, class: "color-white" %>
+  </div>
+
+</div>

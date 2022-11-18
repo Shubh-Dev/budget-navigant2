@@ -1,0 +1,21 @@
+<div class="sign-in-page text-center">
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class: "input-sign-in" %>
+  </div>
+  <hr>
+  <hr>
+  <div class="field">
+    <%= f.password_field :password, autocomplete: "current-password", placeholder: "Password", class: "input-sign-in" %>
+  </div>
+  <br>
+
+  <div class="actions">
+    <%= f.submit "Log in", class: "log-btns color-grey" %>
+  </div>
+<% end %>
+<br>
+
+<p><%= link_to "Forgot password?", new_password_path(resource_name), class: "color-grey" %></p>
+
+</div>
