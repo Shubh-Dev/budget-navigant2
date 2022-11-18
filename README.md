@@ -2,12 +2,15 @@
 
 
 ## Recipe App
-This application keeps track of a users transactions for different categories. It Allows a user to save categories, create transactionns or delete transactions under those categories and Keep track of the total transactions under a given category.
+This application keeps track of an user's transactions for different categories. It Allows a user to save categories, create transactions or delete categories, and Keeps track of the total transactions under a given category.
 
-## Screenshots
+## See live version
 
+[Live version](https://still-coast-22556.herokuapp.com/)
 
- 
+## Presentation by Author
+
+[Video Presentation](https://www.loom.com/share/aa0f946aaeff462e8c0bddbac4696ca5) 
 
 ## Built With
 
