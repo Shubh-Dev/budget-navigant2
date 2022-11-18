@@ -1,5 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## Credit 
+Original design idea by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance.
+
 
 ## Recipe App
 This application keeps track of an user's transactions for different categories. It Allows a user to save categories, create transactions or delete categories, and Keeps track of the total transactions under a given category.
@@ -19,7 +22,6 @@ This application keeps track of an user's transactions for different categories.
   - Rails
   - css
   - postgresql
-
 
 ## Getting Started
 
