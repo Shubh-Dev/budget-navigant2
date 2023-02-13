@@ -1,1 +1,1 @@
-web: rake db:migrate && bundle exec rails s -p $PORT -b $IP -e $RAILS_ENV 
+web: rake db:migrate && web bin/rails server -p ${PORT:-5000} -e $RAILS_ENV
